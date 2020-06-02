@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.clearfix{
+	clear: both;
+}
+#container{
+	background-color: silver;
+	margin: 0 auto;
+	width: 1000px;
+	height:2000px;
+	font-family: arial;
+}
+header{
+	background: url(download.jpg);
+	width: 1000px;
+	height: 100px;
+	color: blue;
+	
+
+}
+.left_header{
+	padding: 30px 0;
+	
+	float: left;
+	margin-left: 10px;
+	}
+	#cn{
+		float: right;
+
+	}
+	#cn ul{
+		list-style: none;
+
+	}
+	#cn ul li{
+		float: left;
+		background-color: orange;
+		padding: 39px 30px;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0 2px;
+		transition: background 1s;
+		cursor: pointer;
+	}
+	#cn ul li:hover{
+		background-color: lightblue;
+
+	}
+	.img1{
+		width: 100%;
+		height: 500px;
+	}
+	section{
+		padding: 0 10%;
+
+	}
+	section h2{
+
+text-align: center;
+font-size: 30px;
+padding: 10px;
+text-shadow: 0px 2px 2px black;
+	}
+	.art{
+		margin-left:100px;
+
+	}
+	.img2{
+		width: 200px;
+
+
+	}
+	
+article{
+	width: 30%;
+	float: left;
+}
+.article_title{
+	
+	font-size: 20px;
+
+
+}
+.description{
+	width: 200px
+	text-align:center;
+
+}
+
+.sec{
+	background: url(download12.jpg);
+	background-size: 100%;
+	width: 1000px;
+	height: 1000px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.sec h2{
+	text-align: center;
+	font-size: 35px;
+    color: white;
+}
+.sec h2:hover{
+	text-decoration:underline;
+}
+.sec .left_side{
+	width: 40%;
+	float: left;
+
+}
+.sec .left_side img{
+	width: 300px;
+	height: 300px;
+	border: 20px solid white;
+	border-radius: 10px;
+
+}
+
+
+.sec .right_side{
+	width: 40%;
+	float: right;
+	color: black;
+	background: lightblue;
+	padding: 20px;
+	border:20px solid white;
+	line-height:17.1px;
+	border-radius: 10px;
+ 
+
+
+
+}
+footer{
+
+	width: 100%;
+	height: 200px;
+	background: gray;
+	color: white;
+	
+}
+.left_footer{
+	padding: 30px;
+	float: left;
+
+}
+.right_footer{
+	float: right;
+}
+.right_footer ul{
+	list-style: none;
+}
+.right_footer ul li{
+	float: left;
+	padding: 30px 30px;
+	font-weight: bold;
+	color: white;
+	transition: color 2s;
+}
+.right_footer ul li:hover{
+	color: orange;
+}
+
+
+
+
+
