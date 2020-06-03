@@ -1,0 +1,56 @@
+body{
+	background: black;
+}
+a:hover{
+	color: pink;
+}
+a.active{
+color:yellow;
+}
+img#logo{
+	margin-left: 402px;
+	margin-right: 20px;
+	margin-top: 14px;
+}
+a{
+	position: relative;
+	top:-13px;
+	left:40px;
+	margin-left: 20px;
+}
+footer{
+	margin-top: 300px;
+	background: #021428;
+	width: 100%;
+	height: 215px;
+	color: white;
+
+
+}
+p#footer-text{
+	line-height: 13;
+	text-align: center;
+
+}
+element.style {
+    margin-left: 200px;
+}
+form{
+	margin-left: 260px;
+}
+.form-control{
+	display: block;
+	width: 40%;
+	padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .24rem;
+transition: border-color .15s ease-in-out,box-shadow .15 ease-in-out;
+
+
+
+}
